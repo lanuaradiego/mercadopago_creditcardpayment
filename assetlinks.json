@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.dlanuara.ejercicioc",
+    "sha256_cert_fingerprints":
+    ["57:47:C2:00:6C:0B:21:FF:CF:CF:BF:E3:88:0A:DA:71:C4:61:9D:81:AB:60:8A:D4:D8:02:81:97:02:6D:88:91"]
+  }
+}]

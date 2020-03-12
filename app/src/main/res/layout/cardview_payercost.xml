@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/imgTick"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#B6B6B6"
+        tools:text="6 cuotas de $ 3.330,25 ($ 19.981,50)"/>
+    <TextView
+        android:id="@+id/txtRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/txtInfo"
+        android:layout_toStartOf="@id/imgTick"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:text="CFT 177,08%, TEA_135,60%"/>
+    <ImageView
+        android:id="@+id/imgTick"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/app_tickmark"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+</RelativeLayout>

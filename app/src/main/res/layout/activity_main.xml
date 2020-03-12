@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.main.MainActivity">
+
+    <ImageView
+        style="@style/TopBanner"
+        app:srcCompat="@drawable/banner_main" />
+    <TextView
+        style="@style/InputLabel"
+        android:text="@string/main_input_label" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+        <EditText
+            android:id="@+id/txtAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/lblTypeCurrency"
+            android:layout_marginStart="10dp"
+            android:ems="10"
+            android:textSize="40sp"
+            android:inputType="numberDecimal"
+            android:hint="@string/main_input_hint"
+            android:gravity="center"
+            android:textColor="#7CB342"/>
+        <TextView
+            android:id="@+id/lblTypeCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/app_typecurrency"
+            android:layout_alignTop="@id/txtAmount"
+            android:layout_alignBottom="@id/txtAmount"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorMoney" />
+
+        <Button
+            style="@style/NextButton"
+            android:id="@+id/btnNext"
+            android:onClick="onClick"
+            android:text="@string/app_next"/>
+    </RelativeLayout>
+</LinearLayout>

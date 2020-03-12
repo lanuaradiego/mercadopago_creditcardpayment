@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Diego Lanuara - Ejercicio C</string>
+    <string name="app_next">Siguiente</string>
+    <string name="app_paid">Pagar</string>
+    <string name="app_close">Cerrar</string>
+    <string name="app_typecurrency">$</string>
+    <string name="app_waitingdata">Obteniendo información…</string>
+
+    <string name="main_title">Realizar Pago con tarjeta de crédito</string>
+    <string name="paymentmethod_title">Método de pago</string>
+    <string name="cardissuer_title">Banco</string>
+    <string name="installment_title">Cuotas</string>
+
+    <string name="main_input_label">Ingrese el monto</string>
+    <string name="paymentmethod_input_label">Elija su tarjeta</string>
+    <string name="cardissuer_input_label">Seleccione el banco</string>
+    <string name="installment_input_label">Seleccione la forma de pago</string>
+
+    <string name="main_input_hint">Monto a pagar</string>
+    <string name="main_amount_empty">Debe ingresar un monto</string>
+    <string name="main_amount_error">Monto ingresado incorrecto.\nPor favor ingrese un monto válido</string>
+
+    <string name="paymentmethod_amount_error">Ocurrio un error al recibir el monto</string>
+    <string name="paymentmethod_receive_error">Ocurrio un error al recibir los métodos de pago</string>
+    <string name="paymentmethod_select_empty">Debe seleccionar un método de pago</string>
+    <string name="paymentmethod_select_error">El método de pago selecionado permite como mínimo un monto de %1$.0f y como máximo un monto de %2$.0f</string>
+
+    <string name="cardissuer_error">Ocurrio un error al recibir los bancos</string>
+    <string name="cardissuer_receive_error">Ocurrio un error al recibir los bancos</string>
+    <string name="cardissuer_select_empty">Debe seleccionar un banco</string>
+
+    <string name="installment_error">Ocurrio un error al recibir las cuotas disponibles</string>
+    <string name="installment_receive_error">Ocurrio un error al recibir las cuotas disponibles</string>
+    <string name="installment_select_empty">Debe seleccionar una cuota de las disponibles</string>
+
+    <string name="paymentresume_alert_title">Resumen del pago</string>
+    <string name="paymentresume_alert_yourpayment">Su pago</string>
+
+</resources>
